@@ -1,0 +1,47 @@
+{
+  "files": [
+    {
+      "path": "raw/phishing-2015-eml/message-000002.eml",
+      "label": "PHISHING"
+    },
+    {
+      "path": "raw/phishing-2015-eml/message-000003.eml",
+      "label": "PHISHING"
+    },
+    {
+      "path": "raw/phishing-2015-eml/message-000004.eml",
+      "label": "PHISHING"
+    },
+    {
+      "path": "raw/phishing-2015-eml/message-000005.eml",
+      "label": "PHISHING"
+    },
+    {
+      "path": "raw/phishing-2015-eml/message-000007.eml",
+      "label": "PHISHING"
+    },
+    {
+      "path": "raw/phishing-2015-eml/message-000008.eml",
+      "label": "PHISHING"
+    },
+    {
+      "path": "raw/phishing-2015-eml/message-000009.eml",
+      "label": "SUSPICIOUS"
+    },
+    {
+      "path": "raw/phishing-2015-eml/message-000010.eml",
+      "label": "PHISHING"
+    },
+    {
+      "path": "raw/phishing-2015-eml/message-000011.eml",
+      "label": "PHISHING"
+    }
+  ],
+  "metadata": {
+    "source": "Jose Nazario Phishing Corpus, 2015 collection",
+    "source_url": "https://monkey.org/~jose/phishing/",
+    "license": "CC BY 4.0",
+    "conversion": "mbox to individual .eml files",
+    "review_note": "message-000003.eml is a probable exact duplicate of message-000002.eml; confirm duplicate handling before counting it as an independent sample."
+  }
+}

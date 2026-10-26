@@ -1,0 +1,67 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.local
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+ENV/
+env/
+__pypackages__/
+
+# Test and tooling caches
+.pytest_cache/
+.pytest-tmp/
+.test-temp/
+.test-tmp/
+.test-work/
+test-tmp/
+testwork/
+pytest_tmp_run/
+pytest-manifest-check/
+fresh_pytest_base/
+pytest-of-*/
+*.pytest-work/
+.mypy_cache/
+.ruff_cache/
+coverage.xml
+htmlcov/
+*.cover
+.coverage*
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+frontend/.env.local
+frontend/.env.*.local
+
+# Raw email content, derived corpora, and generated review material
+datasets/raw/
+datasets/processed/
+datasets/review_queue_unreviewed.json
+datasets/review_queue_unreviewed.md
+datasets/review_worksheet_*.md
+datasets/review_batch_*.md
+datasets/review_decisions_*.json
+datasets/review_inventory.json
+datasets/investigation_*.md
+datasets/approval_checklist_*.md
+datasets/static_link_inspection_*.md
+
+# Generated evaluation runs; publish selected, reviewed reports explicitly
+evaluation-results*/
+datasets/evaluation-results-*/

@@ -1,0 +1,4 @@
+email_text,label
+"SYNTHETIC TEST ONLY: A message asks the recipient to reply with their password immediately.",PHISHING
+"SYNTHETIC TEST ONLY: The team meeting is moved to 2 PM today; please bring the agenda.",LEGITIMATE
+"SYNTHETIC TEST ONLY: Please review the attached document when you have time.",INCONCLUSIVE
